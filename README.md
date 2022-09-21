@@ -71,4 +71,4 @@ Next we need to install python support (node is optional)
 
 ## Plugins
 
-
+[nvim-markdown-preview](https://github.com/davidgranstrom/nvim-markdown-preview)
