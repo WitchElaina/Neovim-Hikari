@@ -2,13 +2,21 @@
 
 Personal **Neovim** config based on [Neovim from scratch](https://github.com/LunarVim/Neovim-from-scratch)
 
-## Try out this config
+## Usage
 
-Make sure to remove or move your current `nvim` directory
+Updates to [Neovim v0.8.0](https://github.com/neovim/neovim/releases) first.
 
-**IMPORTANT** Requires [Neovim v0.8.0]](https://github.com/neovim/neovim/releases).  [Upgrade](#upgrade-to-latest-release) if you're on an earlier version. 
+Remove your current `nvim` directory or make a backup of it.
+
+```shell
+tar -zcvf ~/.config/nvim_config_backup.tar.gz ~/.config/nvim
+rm -rf ~/.config/nvim
 ```
-git clone https://github.com/LunarVim/Neovim-from-scratch.git ~/.config/nvim
+
+Then clone the repo to nvim config directory.
+
+```shell
+git clone https://github.com/WitchElaina/Neovim-Hikari.git ~/.config/nvim
 ```
 
 Run `nvim` and wait for the plugins to be installed 
@@ -59,5 +67,8 @@ Next we need to install python support (node is optional)
 ---
 
 **NOTE** make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [fnm](https://github.com/Schniz/fnm).
+
+
+## Plugins
 
 
