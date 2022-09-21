@@ -72,3 +72,5 @@ Next we need to install python support (node is optional)
 ## Plugins
 
 [nvim-markdown-preview](https://github.com/davidgranstrom/nvim-markdown-preview)
+
+[norcalli/nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)

@@ -60,6 +60,7 @@ return packer.startup(function(use)
     use("junegunn/vim-easy-align")
     use("davidgranstrom/nvim-markdown-preview")
 	use("folke/which-key.nvim")
+    use("norcalli/nvim-colorizer.lua")
 
 	-- Colorschemes
 	use({ "folke/tokyonight.nvim", commit = "8223c970677e4d88c9b6b6d81bda23daf11062bb" })

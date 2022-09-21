@@ -98,6 +98,8 @@ local mappings = {
   c = {
     name = "Tools",
     q = { "<cmd>qa!<cr>", "Quit All" },
+    m = { "<cmd>MarkdownPreview github<cr>", "MarkdownPreview" },
+    c = { "<cmd>:ColorizerAttachToBuffer<cr>", "Colorizer" },
   },
 
   p = {
