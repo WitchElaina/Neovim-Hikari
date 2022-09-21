@@ -1,5 +1,7 @@
 # Neovim-Hikari
 
+[English](https://github.com/WitchElaina/Neovim-Hikari/blob/master/README.md) | [简体中文](https://github.com/WitchElaina/Neovim-Hikari/blob/master/README_zh-cn.md)
+
 Personal **Neovim** config based on [Neovim from scratch](https://github.com/LunarVim/Neovim-from-scratch)
 
 ## Usage
