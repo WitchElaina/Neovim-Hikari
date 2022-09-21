@@ -4,6 +4,10 @@
 
 Personal **Neovim** config based on [Neovim from scratch](https://github.com/LunarVim/Neovim-from-scratch)
 
+## Preview
+
+![Preview](./img/preview.png)
+
 ## Usage
 
 Updates to [Neovim v0.8.0](https://github.com/neovim/neovim/releases) first.
