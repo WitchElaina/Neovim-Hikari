@@ -5,27 +5,27 @@ end
 
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
-	[[                                               ]],
-	[[                                               ]],
-	[[                                               ]],
-	[[                                               ]],
-	[[$$\   $$\ $$\ $$\                          $$\ ]],
-	[[$$ |  $$ |\__|$$ |                         \__|]],
-	[[$$ |  $$ |$$\ $$ |  $$\ $$$$$$\   $$$$$$\  $$\ ]],
-	[[$$$$$$$$ |$$ |$$ | $$  |\____$$\ $$  __$$\ $$ |]],
-	[[$$  __$$ |$$ |$$$$$$  / $$$$$$$ |$$ |  \__|$$ |]],
-	[[$$ |  $$ |$$ |$$  _$$< $$  __$$ |$$ |      $$ |]],
-	[[$$ |  $$ |$$ |$$ | \$$\\$$$$$$$ |$$ |      $$ |]],
-	[[\__|  \__|\__|\__|  \__|\_______|\__|      \__|]],
-	[[                                               ]],
-	[[                                               ]],
-	[[              Neovim Text Editor               ]],
+	[[                                                   ]],
+	[[                                                   ]],
+	[[                                                   ]],
+	[[                                                   ]],
+	[[$$\   $$\  $$\  $$\                            $$\ ]],
+	[[$$ |  $$ | \__| $$ |                           \__|]],
+	[[$$ |  $$ | $$\  $$ |  $$\  $$$$$$\    $$$$$$\  $$\ ]],
+	[[$$$$$$$$ | $$ | $$ | $$  | \____$$\  $$  __$$\ $$ |]],
+	[[$$  __$$ | $$ | $$$$$$  /  $$$$$$$ | $$ |  \__|$$ |]],
+	[[$$ |  $$ | $$ | $$  _$$<  $$  __$$ | $$ |      $$ |]],
+	[[$$ |  $$ | $$ | $$ | \$$\\ $$$$$$$ | $$ |      $$ |]],
+	[[\__|  \__| \__| \__|  \__| \_______| \__|      \__|]],
+	[[                                                   ]],
+	[[                                                   ]],
+	[[                 Neovim Text Editor                ]],
 
 }
                                                                                             
 dashboard.section.buttons.val = {
 	dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),
-	dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
+	dashboard.button("n", "  New file", ":ene <BAR> startinsert <CR>"),
 	dashboard.button("p", "  Find project", ":Telescope projects <CR>"),
 	dashboard.button("r", "  Recently used files", ":Telescope oldfiles <CR>"),
 	dashboard.button("t", "  Find text", ":Telescope live_grep <CR>"),
@@ -39,7 +39,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "WitchElaina@2022"
+	return "@WitchElaina\tVer 2022.09210"
 end
 
 dashboard.section.footer.val = footer()
