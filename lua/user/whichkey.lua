@@ -29,9 +29,8 @@ local setup = {
   key_labels = {
     -- override the label used to display some keys. It doesn't effect WK in any other way.
     -- For example:
-    -- ["<space>"] = "SPC",
-    -- ["<cr>"] = "RET",
-    -- ["<tab>"] = "TAB",
+    --[[ -- ["<cr>"] = "RET", ]]
+    --[[ -- ["<tab>"] = "TAB", ]]
   },
   icons = {
     breadcrumb = "»", -- symbol used in the command line area that shows your active key combo
@@ -87,7 +86,7 @@ local mappings = {
   ["e"] = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
   ["w"] = { "<cmd>w!<CR>", "Save" },
   ["q"] = { "<cmd>q!<CR>", "Quit" },
-  ["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
+  -- ["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
   ["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
   ["f"] = {
     "<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>",
@@ -95,6 +94,11 @@ local mappings = {
   },
   ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
   ["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
+
+  c = {
+    name = "Tools",
+    q = { "<cmd>qa!<cr>", "Quit All" },
+  },
 
   p = {
     name = "Packer",
