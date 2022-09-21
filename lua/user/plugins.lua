@@ -61,6 +61,7 @@ return packer.startup(function(use)
     use("davidgranstrom/nvim-markdown-preview")
 	use("folke/which-key.nvim")
     use("norcalli/nvim-colorizer.lua")
+    use('mrjones2014/smart-splits.nvim')
 
 	-- Colorschemes
 	use({ "folke/tokyonight.nvim", commit = "8223c970677e4d88c9b6b6d81bda23daf11062bb" })
